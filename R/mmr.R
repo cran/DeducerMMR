@@ -519,14 +519,21 @@
 	
 	
 
-	deducer.addMenuItem("Moderated Regression", , ".getNewMmrDialog()$run()", 
-		"Analysis")
+	#deducer.addMenuItem("Moderated Regression", , ".getNewMmrDialog()$run()", "Analysis")
+	
+	
+if(Sys.info()[1]!="Darwin" || .jgr){
+		deducer.addMenuItem("Moderated Regression", , ".getNewMmrDialog()$run()",
+		"Analysis")}
+	
+	
+	
 	if (.windowsGUI) {
 	
 		winMenuAddItem("Analysis", "Moderated Regression", "deducer('Moderated Regression')")
 	}
 	else if (.jgr) {
-
+			
 		
 		jgr.addMenuItem("Analysis", "Moderated Regression", "deducer('Moderated Regression')")
 		
