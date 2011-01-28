@@ -1,6 +1,6 @@
 Package: DeducerMMR
-Version: 0.0-2
-Date: 2011-01-27
+Version: 0.0-3
+Date: 2011-01-28
 Title: A Deducer plugin for moderated multiple regressions and simple
         slopes analysis
 Author: Alberto Mirisola, Luciano Seta, Manuel Gentile, Dario La
@@ -14,6 +14,6 @@ URL: http://www.deducer.org/pmwiki/index.php?n=Main.Development,
         http://cran.r-project.org/web/packages/pequod/pequod.pdf
 Depends: Deducer, pequod, rJava
 License: GPL-2
-Packaged: 2011-01-27 20:58:07 UTC; Administrator
+Packaged: 2011-01-28 17:25:12 UTC; Mirisola
 Repository: CRAN
-Date/Publication: 2011-01-28 07:21:35
+Date/Publication: 2011-01-28 20:01:57
